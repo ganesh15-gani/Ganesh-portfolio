@@ -1,13 +1,12 @@
 import React from 'react';
 import './Hero.css';
-import profile_img from '../../assets/gani3.jpg';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 
 const Hero = () => {
   return (
     <div id='home' className='hero'>
-      <img src={profile_img} alt="" width="15%" />
+      <img src="gani3.jpg" alt="" width="15%" />
       <h1><span>I'm Golla Ganesh,</span> frontend developer based in India </h1>
       <p>I am frontend developer from Qis engg college, India. I have 2 Years of experience.</p>
       <div className="hero-action">
